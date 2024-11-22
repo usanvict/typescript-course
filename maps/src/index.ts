@@ -1,5 +1,16 @@
-import { User } from "./user";
+/// <reference types="@types/google.maps" />
 
-const user = new User();
+// import { User } from "./user";
+// import { Company } from "./Company";
 
-console.log(user);
+const mapElement = document.getElementById("map");
+if (mapElement == null) {
+	throw new Error("Element doesn't exist");
+}
+new google.maps.Map(mapElement, {
+	zoom: 1,
+	center: {
+		lat: 0,
+		lng: 0,
+	},
+});

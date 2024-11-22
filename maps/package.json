@@ -1,0 +1,16 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "webpage": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/google.maps": "^3.58.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
